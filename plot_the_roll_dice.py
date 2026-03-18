@@ -9,7 +9,7 @@ max_result=die.num_sides*die_2.num_sides
 poss_results=range(1,max_result+1)
 frequencies=[results.count(value) for value in poss_results]
 
-title="Results of rolling three D6 dices 1000 Times"
+title="Results of rolling two D6 dices 1000 Times"
 labels={"x":'result','y':'Frequency of result'}
 fig=px.bar(x=poss_results,y=frequencies,title=title,labels=labels)
 
